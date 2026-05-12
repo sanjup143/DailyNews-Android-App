@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================= -->
+    <!-- APP -->
+    <!-- ========================= -->
+    <string name="app_name">DailyNews</string>
+    <string name="news">News</string>
+
+    <!-- ========================= -->
+    <!-- NAVIGATION -->
+    <!-- ========================= -->
+    <string name="home">Home</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="article">Article</string>
+    <string name="news_categories">News categories</string>
+
+    <!-- ========================= -->
+    <!-- ARTICLE -->
+    <!-- ========================= -->
+    <string name="full_article">Full Article</string>
+    <string name="read_full_article">Read Full Article</string>
+
+    <!-- ========================= -->
+    <!-- ACTIONS -->
+    <!-- ========================= -->
+    <string name="bookmark">Bookmark</string>
+    <string name="remove_bookmark">Remove bookmark</string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="retry">Retry</string>
+
+    <!-- ========================= -->
+    <!-- SEARCH -->
+    <!-- ========================= -->
+    <string name="search_news">Search news</string>
+    <string name="search_hint">Search by keyword…</string> <!-- ✅ fixed -->
+    <string name="no_results">No results found</string>
+
+    <!-- ========================= -->
+    <!-- TAB-LIST -->
+    <!-- ========================= -->
+    <string name="top">Top</string>
+    <string name="business">Business</string>
+    <string name="technology">Technology</string>
+    <string name="sports">Sports</string>
+    <string name="health">Health</string>
+
+    <!-- ========================= -->
+    <!-- STATES -->
+    <!-- ========================= -->
+    <string name="no_bookmarks">No bookmarks yet</string>
+    <string name="no_news_found">No news available</string>
+    <string name="loading">Loading…</string> <!-- ✅ fixed -->
+    <string name="oops">Oops!</string>
+    <string name="no_internet_message">No internet connection. Please check your network and try again.</string>
+
+    <!-- ========================= -->
+    <!-- ERRORS -->
+    <!-- ========================= -->
+    <string name="no_internet">No internet connection</string>
+    <string name="check_connection">Please check your connection and try again.</string>
+    <string name="load_failed">Failed to load article</string>
+    <string name="article_not_found">Article not found</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="error_article_not_found">Error: Article not found</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <!-- ========================= -->
+    <!-- DEFAULTS -->
+    <!-- ========================= -->
+    <string name="no_title">No Title</string>
+    <string name="no_description">No Description</string>
+    <string name="unknown_source">Unknown</string>
+
+    <!-- ========================= -->
+    <!-- ACCESSIBILITY -->
+    <!-- ========================= -->
+    <string name="article_image">Article image</string>
+    <string name="news_image">News image</string>
+    <string name="bookmark_icon">Bookmark icon</string>
+    <string name="empty_state_icon">No content available</string>
+    <string name="error_icon">Error loading content</string>
+
+</resources>

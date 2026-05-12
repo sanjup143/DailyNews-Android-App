@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Wi-Fi / Signal -->
+    <path
+        android:fillColor="?attr/colorOnSurfaceVariant"
+        android:pathData="M23.64,7c-0.45,-0.34 -4.93,-4 -11.64,-4C5.28,3 0.81,6.66 0.36,7l10.08,12.56c0.8,0.99 2.32,0.99 3.12,0L23.64,7zM3.17,9.17C4.67,8.2 7.77,6 12,6c4.23,0 7.33,2.2 8.83,3.17L12,17.67L3.17,9.17zM17,14v-4h-2v4H17zM13,14v-4h-2v4H13zM9,14v-4H7v4H9z" />
+
+    <!-- Slash -->
+    <path
+        android:pathData="M2,2L22,22"
+        android:strokeWidth="2"
+        android:strokeColor="?attr/colorOnSurfaceVariant"
+        android:fillColor="@android:color/transparent" />
+
+</vector>

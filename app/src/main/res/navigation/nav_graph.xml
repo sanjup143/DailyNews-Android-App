@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/articleListFragment">
+
+    <!-- ========================= -->
+    <!-- HOME (Top News + Tabs) -->
+    <!-- ========================= -->
+    <fragment
+        android:id="@+id/articleListFragment"
+        android:name="com.sanju.newsapp.ui.ArticleListFragment"
+        android:label="@string/home">
+
+        <action
+            android:id="@+id/action_articleListFragment_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment"
+            app:launchSingleTop="true"
+            app:restoreState="true" />
+    </fragment>
+
+    <!-- ========================= -->
+    <!-- ARTICLE DETAIL -->
+    <!-- ========================= -->
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="com.sanju.newsapp.ui.ArticleDetailFragment"
+        android:label="@string/article">
+
+        <!-- ✅ Safe Args (Parcelable Article) -->
+        <argument
+            android:name="article"
+            app:argType="com.sanju.newsapp.model.Article" />
+
+        <action
+            android:id="@+id/action_articleDetailFragment_to_webviewFragment"
+            app:destination="@id/webviewFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+
+    <!-- ========================= -->
+    <!-- WEBVIEW (Full Article) -->
+    <!-- ========================= -->
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.sanju.newsapp.ui.WebViewFragment"
+        android:label="@string/full_article">
+
+        <!-- ✅ URL argument -->
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <!-- ========================= -->
+    <!-- BOOKMARKS -->
+    <!-- ========================= -->
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="com.sanju.newsapp.ui.BookmarksFragment"
+        android:label="@string/bookmarks">
+
+        <action
+            android:id="@+id/action_bookmarksFragment_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment"
+            app:launchSingleTop="true"
+            app:restoreState="true" />
+    </fragment>
+
+</navigation>
