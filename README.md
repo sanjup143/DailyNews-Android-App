@@ -35,19 +35,19 @@ Modern Android News App built with Kotlin and MVVM architecture.
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/Screenshot_20260512_215756.png)
+![Home Screen](screenshots/home_screen.png)
 
 ### Article Screen
-![Article Screen](screenshots/Screenshot_20260512_214240.png)
+![Article Screen](screenshots/article_screen.png)
 
 ### Full Article Screen
-![Full Article Screen](screenshots/Screenshot_20260512_214302.png)
+![Full Article Screen](screenshots/full_article_screen.png)
 
 ### Bookmarks Screen
-![Bookmarks Screen](screenshots/Screenshot_20260512_214446.png)
+![Bookmarks Screen](screenshots/bookmarks_screen.png)
 
 ### Search Screen
-![Search Screen](screenshots/Screenshot_20260512_214651.png)
+![Search Screen](screenshots/search_screen.png)
 
 ## Developer
 
