@@ -90,5 +90,4 @@ Sanju Parmar
 
 Android Developer | Kotlin | MVVM | Retrofit | Room | Hilt
 
-GitHub:
-https://github.com/sanjup143
+GitHub: [@sanjup143](https://github.com/sanjup143)
