@@ -2,7 +2,7 @@
   <img src="screenshots/app_icon.png" width="120">
 </p>
 
-# DailyNews Android App
+# 📰 DailyNews Android App
 
 Modern Android News application built using Kotlin, MVVM Architecture, Retrofit, Room Database, Hilt Dependency Injection, and Navigation Component.
 
