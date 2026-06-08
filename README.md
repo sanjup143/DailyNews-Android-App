@@ -53,6 +53,10 @@ The app allows users to browse the latest headlines, explore category-based news
 ### Search Screen
 ![Search Screen](screenshots/search_screen.png)
 
+## Download APK
+
+[Download Latest APK](https://github.com/sanjup143/DailyNews-Android-App/releases)
+
 ## Installation
 
 1. Clone the repository
